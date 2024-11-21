@@ -1,0 +1,240 @@
+.header-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--fundo-claro);
+    border-bottom: solid 1px rgba(128, 128, 128, 0.815);
+    color: #e3e3e3;
+    padding: 40px 10px;
+}
+
+.usuario {
+    margin-left: 3em;
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--laranja);
+    text-shadow: -1px -2px 4px rgba(255, 255, 255, 0.781);
+}
+
+.usuario-2 {
+    font-weight: 700;
+    color: var(--verde);
+}
+
+.nav {
+    display: flex;
+    padding-right: 3em;
+    letter-spacing: 1px;
+    gap: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--laranja);
+    text-shadow: -1px -2px 4px rgba(255, 255, 255, 0.781);
+    text-decoration: none;
+
+}
+
+.contact {
+    position: relative;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 3em;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    border: inset 5px var(--laranja);
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+    transform: scale(1.09);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact:hover {
+    background-color: var(--verde);
+    color: rgb(255, 255, 255);
+    text-shadow: none;
+    transform: scale(1.09);
+}
+
+.contact:active {
+    background-color: var(--verde);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+
+.nav :hover {
+    color:  var(--verde);
+    text-shadow: -1px -2px 4px rgb(255, 255, 255);
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    transform: scale(1.05);
+    font-weight: 700;
+}
+
+.nav :active {
+    color: #e3e3e3;
+    text-shadow: 2px 2px 8px rgb(255, 255, 255);
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.menu :hover {
+    color: #000000;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(128, 128, 128, 0.7);
+    font-weight: 700;
+}
+
+.menu :active {
+    font-size: 1.5rem;
+    transform: scale(1.1);
+}
+
+.invisible,
+.menu-responsive {
+    display: none;
+}
+
+.header-lEsquerdo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.dropdow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    left: 31rem;
+    color:  rgba(255, 255, 255, 0.916);
+    background: #424242be;
+    width: 20vw;
+    height: 10vh;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+    transition: background-color 0.3s ease-out, transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.dropdow :hover {
+    font-weight: 700;
+    transition: 0.2s ease-out;
+    color:  var(--laranja);
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-weight: 700;
+}
+.item-menu {
+    text-decoration: none;
+    color: #e3e3e3;
+}
+
+
+
+@media (max-width: 1024px) {
+    .header-conteiner {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .nav {
+        gap: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-conteiner {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    .usuario {
+        margin-left: 1em;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .contact {
+        margin-right: 1em;
+    }
+
+    .menu-responsive {
+        display: flex;
+        gap: 10px;
+        color:  var(--verde);
+    }
+
+    .usuario,
+    .nav,
+    .contact,
+    .menu {
+        margin: 5px 0;
+        font-size: 1.1rem;
+    }
+
+    .dropdow {
+        top: 3.3rem;
+        right: 4.3rem;
+    }
+
+    .contact {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .header-conteiner {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+
+    }
+
+    .usuario,
+    .nav,
+    .contact,
+    .menu {
+        margin: 5px 0;
+        font-size: 1rem;
+        background-color: #3e8e41 !important;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .contact {
+        margin-right: 0;
+    }
+
+    .dropdow {
+        top: 3.3rem;
+        right: 4.3rem;
+    }
+
+    .contact {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}

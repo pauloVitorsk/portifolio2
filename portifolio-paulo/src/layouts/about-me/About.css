@@ -1,0 +1,21 @@
+.About-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.text-About {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5em;
+}
+
+.title{
+    font-size: 5em;
+    color: var(--laranja);
+    position: relative;
+    right: 5em;
+}
