@@ -28,7 +28,7 @@ Frameworks/Bibliotecas: React.js.
 Adicionar animações interativas.
 Melhorar o design responsivo para tablets e desktops.
 
-Portfólio Online: https://portifolio2-qeelkv2i9-paulovitorsks-projects.vercel.app](https://portifolio-jy74m4ohv-paulovitorsks-projects.vercel.app/About/<h4/>
+Portfólio Online: https://portifolio-jy74m4ohv-paulovitorsks-projects.vercel.app/About/<h4/>
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 <h4>🚧 Este projeto está em constante desenvolvimento e atualizações frequentes serão realizadas. Obrigado por visitar! 😊<h4/>
