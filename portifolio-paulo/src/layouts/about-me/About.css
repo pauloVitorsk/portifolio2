@@ -19,3 +19,19 @@
     position: relative;
     right: 5em;
 }
+.habilidades {
+    display: flex;
+    flex-direction: column;
+}
+.habilidades-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 70vw;
+    position: relative;
+    left: 25em;
+}
+.card {
+    flex: none; 
+    margin: 0.5em;
+}

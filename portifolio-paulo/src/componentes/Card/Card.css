@@ -1,0 +1,52 @@
+.card {
+    width: 18rem;
+    height: auto; /* Ajuste automático da altura conforme o conteúdo */
+    background-color: rgba(255, 255, 255, 0.9); /* Tornar a cor mais clara para melhor contraste */
+    border-radius: 12px;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06); /* Adiciona uma sombra sutil */
+    display: flex;
+    flex-direction: column; /* Garante alinhamento correto do conteúdo */
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza efeitos de hover */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efeito de elevação no hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Intensifica a sombra no hover */
+}
+
+.card img {
+    border-radius: 8px; /* Adiciona cantos arredondados à imagem */
+    max-width: 100%;
+    height: auto; /* Responsivo para a imagem */
+    margin-bottom: 1em; /* Espaçamento abaixo da imagem */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333; /* Cor do texto */
+    margin-bottom: 0.5em;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555; /* Cor do texto */
+    margin-bottom: 1em;
+}
+
+.btn {
+    background-color: transparent; 
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    text-shadow: -1px -2px 4px rgba(2, 2, 2, 0.781);
+}
