@@ -2,19 +2,16 @@
 :alien:Não perde tempo, e ver o deploy!:alien:
  Meu Portfólio Profissional - Em Desenvolvimento 🚧
 <h4/>
-    
--------------------------------------------------------------------------------------------------------------------------------------------
-# :hammer: Funcionalidades do projeto
-  
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 <h4>🎯 Objetivo<h4/>
 Criar um portfólio que:
 
-Demonstre boas práticas de desenvolvimento.
+<h4>Demonstre boas práticas de desenvolvimento.
 Seja fácil de manter e evoluir.
 Ofereça uma experiência dinâmica e responsiva para os usuários.
 Destaque informações sobre minha trajetória profissional e projetos realizados.
+ <h4/>
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 🛠️ Tecnologias Utilizadas
