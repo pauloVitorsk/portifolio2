@@ -6,7 +6,7 @@ const Cards = ({ aos, aos_offset, imagem, Titulo ,Descrição}) => {
             <div className="card-body">
                 <h6 className="card-title">{Titulo}</h6>
                 <p className="card-text">{Descrição}</p>
-                <a href="#" className="btn btn-primary">❤️</a>
+                {/* <a href="#" className="btn btn-primary">❤️</a> */}
             </div>
         </div>
     );

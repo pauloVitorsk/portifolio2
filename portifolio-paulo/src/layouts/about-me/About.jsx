@@ -3,6 +3,20 @@ import './About.css';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Cards from '../../componentes/Card/Card';
+import iconJavaScript from "../../assets/icon-javaScript.png"
+import iconReact from "../../assets/icon-reactJs.png"
+import iconHtml from "../../assets/icon-html.png"
+import iconCss from "../../assets/icon-css.png"
+import iconFigma from "../../assets/icon-figma.png"
+import iconTypeScrit from "../../assets/icon-typeScript.png"
+import iconComunicacao from "../../assets/icon-comunicacao.png"
+import iconAtencao from "../../assets/icon-atencao.png"
+import iconTrabalhoEquipe from "../../assets/icon-trabalhoEquipe.png"
+import iconGestaoTempo from "../../assets/icon-gestaoTempo.png"
+import iconDesenho from "../../assets/icon-desenhar.png"
+import iconPedalar from "../../assets/icon-pedalar.png"
+import iconJardinagem from "../../assets/icon-plantar.png"
+import iconMarcenaria from "../../assets/icon-marcenaria.png"
 
 const About = () => {
     useEffect(() => {
@@ -11,17 +25,19 @@ const About = () => {
 
     return (
         <div className='About-container'>
-            <div className="text-About">
-                <div>
+            <div className="conteiner-About">
+                <div className="text-About">
                     <h1 className="title"
-                        data-aos="fade-down"
-                        data-aos-easing="linear"
-                        data-aos-duration="1500"
+                         data-aos="fade-right"
+                         data-aos-offset="100"
+                         data-aos-easing="ease-in-sine"
+                         data-aos-duration="1500"
                     >Sobre mim</h1>
-                    <p className="text-bigger"
+                    <div>
+                    <p className="text-bigger "
                         data-aos="fade-up"
-                        data-aos-easing="linear"
-                        data-aos-duration="1500">
+                        data-aos-duration="1500"
+                        data-aos-anchor-placement="top-center">
                         Sou Paulo Vitor, um desenvolvedor com alma de artista e uma paixão constante por criar, aprender e encontrar soluções inovadoras para os
                         desafios do dia a dia. Além de minha experiência em desenvolvimento, também sou desenhista, tatuador, marceneiro e jardineiro. Cada uma
                         dessas habilidades reflete meu desejo de transformar ideias em realidade, seja por meio de linhas de código ou pelas formas e cores do
@@ -32,77 +48,101 @@ const About = () => {
                         versionamento em Git. Desenvolvi soluções no setor de varejo, com foco na melhoria de aplicações web internas e criação de interfaces
                         dinâmicas e responsivas.
                     </p>
+                    </div>
                 </div>
 
-                <div className='habilidades'>
+                <div className='habilidades-conteiner'>
                     <h2 className="title"
-                        data-aos="fade-down"
-                        data-aos-easing="linear"
-                        data-aos-duration="1500"
-                    >Habilidades</h2>
-                    <p className="text-bigger"
-                        data-aos="fade-up"
-                        data-aos-easing="linear"
-                        data-aos-duration="1500">
-                    </p>
-                    <div className='habilidades-cards'>
-                        <Cards Titulo={"JavaScript"}
-                        aos="fade-up" aos_offset="1500" desc="desc" />
-                        <Cards 
-                        Titulo={"React.Js"}
+                        data-aos="fade-right"
+                        data-aos-offset="100"
+                        data-aos-easing="ease-in-sine"
+                        data-aos-duration="1400"
+                    >Tecnologias</h2>
+                    <div className='tecnologias-cards'>
+                       
+                    <Cards Titulo={"JavaScript"}
+                        imagem={iconJavaScript}
                         aos="fade-up" aos_offset="1500" desc="desc" />
                         <Cards 
                         Titulo={"HTML"}
+                        imagem={iconHtml}
                         aos="fade-up" aos_offset="1500" desc="desc" />
                         <Cards 
                         Titulo={"CSS"}
+                        imagem={iconCss}
                         aos="fade-up" aos_offset="1500" desc="desc" />
                         <Cards 
-                        Titulo={"Figma"}
+                        Titulo={"React.Js"}
+                        imagem={iconReact}
+                        aos="fade-up" aos_offset="1500" desc="desc" />
+                        <Cards 
+                        Titulo={"TypeScrit"}
+                        imagem={iconTypeScrit}
                         aos="fade-up" aos_offset="1500"  />
-                        <Cards Titulo={"Comunicação"}
+                        <Cards 
+                        Titulo={"Figma"}
+                        imagem={iconFigma}
+                        aos="fade-up" aos_offset="1500"  />
+                    </div>
+
+                </div>
+                <div className='habilidades-conteiner'>
+                    <h2 className="title"
+                        data-aos="fade-right"
+                        data-aos-offset="100"
+                        data-aos-easing="ease-in-sine"
+                        data-aos-duration="1500"
+                    >Habilidades</h2>
+                    <div className='habilidades-cards'>
+                       
+                        <Cards 
+                        Titulo={"Comunicação"}
+                        imagem={iconComunicacao}
                         aos="fade-up" aos_offset="1500" desc="desc" />
-                        <Cards Titulo={"Atenção aos Detalhes"}
+                        <Cards 
+                        Titulo={"Trabalho em Equipe"}
+                        imagem={iconTrabalhoEquipe}
                         aos="fade-up" aos_offset="1500" desc="desc" />
-                        <Cards Titulo={"Trabalho em Equipe"}
+                        <Cards 
+                        Titulo={"Atenção aos Detalhes"}
+                        imagem={iconAtencao}
                         aos="fade-up" aos_offset="1500" desc="desc" />
-                        <Cards Titulo={"Gestão de tempo"}
+                        <Cards 
+                        Titulo={"Gestão de tempo"}
+                        imagem={iconGestaoTempo}
                         aos="fade-up" aos_offset="1500" desc="desc" />
                     </div>
 
                 </div>
 
-                <div>
+                <div className='text-hobbies'>
                     <h2 className="title"
-                        data-aos="fade-down"
-                        data-aos-easing="linear"
-                        data-aos-duration="1500"
+                        data-aos="fade-right"
+                        data-aos-offset="100"
+                        data-aos-easing="ease-in-sine"
+                        data-aos-duration="1400"
                     >Hobbies</h2>
-                    <p className="text-bigger"
-                        data-aos="fade-up"
-                        data-aos-easing="linear"
-                        data-aos-duration="1500">
-                    </p>
                     <div className='habilidades-cards'>
-                        <Cards Titulo={"Desenhar"}
+                        <Cards 
+                        Titulo={"Desenhar"}
+                        imagem={iconDesenho}
                         aos="fade-up" aos_offset="1500" desc="desc" />
                         <Cards 
                         Titulo={"Pedalar"}
+                        imagem={iconPedalar}
                         aos="fade-up" aos_offset="1500" desc="desc" />
                         <Cards 
                         Titulo={"Jardinagem"}
+                        imagem={iconJardinagem}
                         aos="fade-up" aos_offset="1500" desc="desc" />
                         <Cards 
+                        imagem={iconMarcenaria}
                         Titulo={"Marcenaria"}
                         aos="fade-up" aos_offset="1500" desc="desc" />
                     </div>
                 </div>
             </div>
 
-            <div className="text-button">
-                <button>button</button>
-                <button>button</button>
-            </div>
         </div>
     );
 }
