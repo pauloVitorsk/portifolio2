@@ -23,8 +23,8 @@ const Header = () => {
     return (
         <header className='header-conteiner'>
             <div className="usuario">
-                <label>Paulo</label>
-                <label className="usuario-2">Vitorsk</label>
+                <label>Porti</label>
+                <label className="usuario-2">Fólio</label>
             </div>
 
             <div className={"nav"}>

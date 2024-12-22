@@ -10,7 +10,7 @@ const Body = () => {
     const [modalContato, setModalContato] = useState(false);
     const photoRef = useRef(null);
     const modalRef = useRef(null);
-    useEffect(()=>{
+    useEffect(() => {
         Aos.init();
     })
 
@@ -56,38 +56,57 @@ const Body = () => {
     return (
         <div className='body-conteiner'>
             <div className="text-home">
-                <label className="text-name">Olá, eu sou Paulo!</label>
-                <h1 className="text-function" data-aos="fade-down"
+                <div
+                    data-aos="fade-down"
                     data-aos-easing="linear"
-                    data-aos-duration="1500">Desenvolvedor Web</h1>
-                <p className="text-bigger">
+                    data-aos-duration="1700">
+                    <label
+                        className="text-name"
+                    >Olá, eu sou </label><br />
+                    <label className="text-name">Paulo Vitor!</label>
+                </div>
+                <h1 className="text-function"
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                >Desenvolvedor Web</h1>
+                {/* <p className="text-bigger">
                     Sou um desenvolvedor-web apaixonado por criar interfaces dinâmicas e responsivas usando React.js, JavaScript e CSS/Sass. Minha missão é otimizar aplicações web e solucionar problemas de forma eficiente, sempre mantendo o usuário no centro de tudo o que faço.
                     Estou sempre buscando entregar soluções de alta qualidade e estou em constante aprendizado. Tenho familiaridade com C#, .NET e SQL, e estou expandindo meus conhecimentos nessas tecnologias para colaborar de forma ainda mais eficaz com equipes de back-end.
                     Vamos juntos construir algo incrível!
-                </p>
-                <div className="text-button">
+                </p> */}
+                <div
+                    className="text-button"
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000">
                     <button className='botao' onClick={() => { setModalContato(!modalContato); }}>
                         Contato
                     </button>
-                    <a href="https://drive.google.com/file/d/1rvsd6MnNzXkyvDDesDMiv1GcsYLTG7RM/view?usp=sharing" target='_blank' download={true}>
+                    <a href="https://drive.google.com/file/d/10aiD6GDMusXLc6ix4mEAapgJ0Dm-2cLo/view?usp=sharing" target='_blank' download={true}>
                         <button className='botao'>Baixar CV</button>
                     </a>
                 </div>
             </div>
-            <div>
-                <div className="photo-conteiner">
+            <div className="photo-conteiner">
+                <div >
                     <img
                         ref={photoRef}
                         src={fotoPaulo}
                         alt="Foto Paulo"
                         className="photo"
-                        data-aos="zoom-out-down"
-                        data-aos-duration="1500"
+                        data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1200"
                     />
                 </div>
             </div>
             {modalContato ? (
-                <div ref={modalRef} className="modal-contato">
+                <div ref={modalRef}
+                    className="modal-contato"
+                    data-aos="fade-zoo"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000">
                     <div className="header-contato">
                         <h3>Contatos</h3>
                         <button className="fechar-contato" onClick={() => { setModalContato(!modalContato); }}>X</button>

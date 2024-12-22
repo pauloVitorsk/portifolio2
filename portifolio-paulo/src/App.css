@@ -1,10 +1,14 @@
 *:root {
-  --fundo-claro:rgb(220, 221, 223);
+  --fundo-claro:rgb(204,235,255);
+  --fundo-degrade: linear-gradient(0deg, rgba(255,255,255,1) 100%, rgba(196,231,254,1) 50%, rgba(110,190,244,1) 0%);
   --laranja:rgb(233, 117, 9);
   --verde:rgba(5, 68, 64, 0.9164040616246498);
+  --preto:rgba(0, 0, 0, 0.916);
+  --branco:rgba(255, 255, 255, 0.916);
 }
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 
 .App-logo {
