@@ -1,5 +1,4 @@
-<h4 align="center";>
-:alien:Não perde tempo, e ver o deploy!
+
 <h4> Meu Portfólio Profissional - Em Desenvolvimento 🚧
 <h4/>
 ----------------------------------------------------------------------------------------------------------------------------
@@ -28,7 +27,7 @@ Frameworks/Bibliotecas: React.js.
 Adicionar animações interativas
 Melhorar o design responsivo para tablets e desktops.
 
-Portfólio Online: .https://portifolio2-g78uaf4pu-paulovitorsks-projects.vercel.app<h4/>
+Portfólio Online: https://portifolio-nine-nu-11.vercel.app/<h4/>
 --------------------------------------------------------------------------------------------------------------------------
 
 <h4>🚧 Este projeto está em constante desenvolvimento e atualizações frequentes serão realizadas. Obrigado por visitar! 😊<h4/>
