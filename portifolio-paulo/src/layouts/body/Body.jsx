@@ -17,29 +17,27 @@ const Body = () => {
 
     useEffect(() => {
         const photoElement = photoRef.current;
-
+    
         if (photoElement) {
-            const HandleMouseEvent = (e) => {
+            const handleMouseEvent = (e) => {
                 const rect = photoElement.getBoundingClientRect();
-
+    
                 const x = e.clientX - rect.left;
                 const y = e.clientY - rect.top;
-
-                // Percentuais do movimento do mouse em relação ao tamanho da imagem
+    
                 const xPercent = (x / rect.width) * 100;
                 const yPercent = (y / rect.height) * 100;
-
-                // Movimentando o background tanto horizontalmente quanto verticalmente
+    
                 photoElement.style.backgroundPosition = `${xPercent}% ${yPercent}%`;
             };
-
-            photoElement.addEventListener('mousemove', HandleMouseEvent);
-
+    
+            photoElement.addEventListener('mousemove', handleMouseEvent);
+    
             return () => {
-                photoElement.removeEventListener('mousemove', HandleMouseEvent);
+                photoElement.removeEventListener('mousemove', handleMouseEvent);
             };
         }
-    }, []);
+    }, [photoRef]);
 
     useEffect(() => {
         const HandleClickOutSide = (event) => {

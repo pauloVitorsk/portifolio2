@@ -8,6 +8,7 @@ import iconReact from "../../assets/icon-reactJs.png"
 import iconHtml from "../../assets/icon-html.png"
 import iconCss from "../../assets/icon-css.png"
 import iconFigma from "../../assets/icon-figma.png"
+import iconGit from "../../assets/Git-icon.png"
 import iconTypeScrit from "../../assets/icon-typeScript.png"
 import iconComunicacao from "../../assets/icon-comunicacao.png"
 import iconAtencao from "../../assets/icon-atencao.png"
@@ -89,6 +90,10 @@ const About = () => {
                         <Cards
                             Titulo={"Figma"}
                             imagem={iconFigma}
+                            aos="fade-left" aos_offset="1500" />
+                        <Cards
+                            Titulo={"Git"}
+                            imagem={iconGit}
                             aos="fade-left" aos_offset="1500" />
                     </div>
 
