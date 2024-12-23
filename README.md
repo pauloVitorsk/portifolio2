@@ -25,5 +25,5 @@ Melhorar o design responsivo para tablets e desktops.
 Portfólio Online: https://portifolio-nine-nu-11.vercel.app/<h4/>
 --------------------------------------------------------------------------------------------------------------------------
 
-<h4>🚧 Este projeto está em constante desenvolvimento e atualizações frequentes serão realizadas. Obrigado por visitar! 😊<h4/>
+<h4>🚧 Este projeto está em constante desenvolvimento e atualizações frequentes serão realizadas. Obrigado por visitar!😊<h4/>
 
