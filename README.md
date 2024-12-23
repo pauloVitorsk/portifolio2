@@ -17,9 +17,9 @@ Destaque informações sobre minha trajetória profissional e projetos realizado
 Linguagens: JavaScript, HTML5, CSS3.
 Frameworks/Bibliotecas: React.js.
 📋 Funcionalidades 
-📖 Sobre Mim: Seção dedicada à minha trajetória e objetivos profissionais.(Em Progresso)
+📖 Sobre Mim: Seção dedicada à minha trajetória e objetivos profissionais.
 🛠️ Projetos: Vitrine com os principais projetos e suas tecnologias.(Em Progresso)
-📱 Responsividade: Design adaptado para diferentes tamanhos de tela.
+📱 Responsividade: Design adaptado para diferentes tamanhos de tela.(Em Progresso)
 ⚡ Performance: Foco em velocidade e eficiência no carregamento.<h4/>
 ---------------------------------------------------------------------------------------------------------------------------
 
