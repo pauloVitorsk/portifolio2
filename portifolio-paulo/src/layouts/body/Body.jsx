@@ -115,7 +115,6 @@ const Body = () => {
                         Vamos construir algo incrível juntos!
                     </div>
                     <div className="botoes-contato">
-                        <a href="https://wa.me/85994275505" target="_blank" rel="noopener noreferrer"><button className='botao-contato'>WhatsApp <IoLogoWhatsapp fontSize={30} /></button></a>
                         <a href="https://www.linkedin.com/in/paulo-vitor-398825227/" target="_blank" rel="noopener noreferrer"><button className='botao-contato'>LinkedIn <IoLogoLinkedin fontSize={30} /></button></a>
                         <a href="mailto:seuemail@exemplo.com" target="_blank"><button className='botao-contato'>Email <MdEmail fontSize={30} /></button></a>
                     </div>

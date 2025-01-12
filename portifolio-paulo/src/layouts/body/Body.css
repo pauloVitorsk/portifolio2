@@ -193,9 +193,11 @@
 
 .modal-contato {
     position: absolute;
-    left: 30em;
-    width: 40vw;
-    height: 40vh;
+    left: 20em;
+    max-width: 50vw;
+    min-width: 40vw;
+    max-height: 55vh;
+    min-height: 40vh;
     padding: 10px 20px 100px;
     gap: 4em;
     z-index: 3;
